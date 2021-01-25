@@ -20,11 +20,11 @@
     </Residues>
 
 <HarmonicBondForce>
-    <Bond class1="BEAD" class2="BEAD" length="0.1" k="300000.0"/>
+    <Bond class1="BEAD" class2="BEAD" length="0.1" k="30000.0"/>
 
 </HarmonicBondForce>
 
-<CustomNonbondedForce energy="scale*epsilon1*epsilon2*((sigma1+sigma2)/r)^12" bondCutoff="0">
+<CustomNonbondedForce energy="scale*epsilon1*(((sigma1+sigma2)/r)^12-((sigma1+sigma2)/r)^6)" bondCutoff="0">
  <GlobalParameter name="scale" defaultValue="1"/>
  <PerParticleParameter name="sigma"/>
  <PerParticleParameter name="epsilon"/>
