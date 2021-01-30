@@ -7,7 +7,7 @@ from points_io import save_points_as_pdb
 def draw_graph():
 
     # creating objects
-    polymer = RandomWalk(499,10) # 500 atoms (points) and radius of sampling limiting sphere equal to 10
+    polymer = RandomWalk(499,100) # 500 atoms (points) and radius of sampling limiting sphere equal to 10
 
     # drawing charts
     draw_polymer(polymer)
@@ -21,7 +21,7 @@ def draw_polymer(polymer):
     ax.plot(polymer.get_x_val(), polymer.get_y_val(), polymer.get_z_val(), color='blue', linewidth=3)
     ax.scatter((0),(0),(0),c="red")
     plt.savefig("polymer")
-    #plt.show()
+    plt.show()
 
 def draw():
     # graph features
