@@ -5,6 +5,10 @@ The main task of the project was to generate a globule (polymer) in 3D space, th
 
 ---File description---
 
+The first file to execute is **random_walk.py**. This script allows us to generate a random-positioned polymer in 3D space. It is imposed that new points are generated at a distance greater than 1 A from any previously generated point and it does not allow the intersection of connections between the points. Contains the definition of the *RandomWalk* class, which is used in subsequent files. 
+File **polymer.py** generates a random polymer with a given number of segments, uses the *RandomWalk* class, creates a **polymer.pdb** file and a PNG graphic file. 
+File **polymer.pdb** - randomly generated globule, the basic structure used in the first and second simulations, has 500 atoms. 
+The **points_io.py** file allows us to save files in the PDB format, which is necessary to simulate and visualize the structure of the generated polymer.
 
 
 
