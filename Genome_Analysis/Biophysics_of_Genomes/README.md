@@ -21,7 +21,7 @@ The scripts were written in python using the following packages:
 * MDTraj
 
 ## Setup
-To be able to run the scripts, you must have the appropriate python packages installed. First of all Anaconda Python distribution and later OpenMM. You will also need libraries: match, random, NumPy, Matplotlib, MDTray, SciPy.
+To be able to run the scripts, you must have the appropriate python packages installed. First of all _Anaconda Python distribution_ and then _OpenMM_. You will also need libraries: _match_, _random_, _NumPy_, _Matplotlib_, _MDTray_, _SciP_y.
 
 To execute scripts, you have to type `python3 <filename.py>` in a terminal.
 
