@@ -7,11 +7,11 @@ Currently, I am working on the **Biophysics_of_Genomes** project, that was inclu
 
 
 ## Projects
-* [Biophysics of Genomes](#Biophysics of Genomes)
+* [Biophysics of Genomes](#Biophysics-of-Genomes)
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
+* [Biophysics of Genomes](#Biophysics of Genomes)
 * [Technologies](#technologies)
 * [Setup](#setup)
 * [Features](#features)
