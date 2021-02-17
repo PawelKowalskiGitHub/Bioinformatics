@@ -2,10 +2,13 @@
 
 > This repository contains my bioinformatics projects.
 
-I am currently working on the **Biophysics_of_Genomes** project, that was included in _Genome_Analysis_ folder.
+
+Currently, I am working on the **Biophysics_of_Genomes** project, that was included in _Genome_Analysis_ folder.
 
 
 ## Projects
+* [Biophysics of Genomes](#Biophysics of Genomes)
+
 
 #### Biophysics of Genomes
 
