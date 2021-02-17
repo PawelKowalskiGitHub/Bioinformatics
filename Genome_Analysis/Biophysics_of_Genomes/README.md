@@ -23,3 +23,42 @@ The data for the last simulation frame is also saved in the **sym2_last_frame.pd
 # ---Setup---
 
 To execute scripts, you have to type "python3 <filename.py>" in a console.
+
+
+
+
+
+
+# Biophysics of Genomes
+> Chromatin is a linear polymer that takes on a specific spatial structure depending on the force system in which it is located. The adopted structure is critical to the biological function of the genome because, as is well known, genes close together are either all "on" or all "off" at the same time.
+
+
+## Table of contents
+* [General info](#general-info)
+* [Technologies](#technologies)
+* [File description](#file_description)
+* [Setup](#setup)
+* [Development](#development)
+* [Status](#status)
+
+## General info
+The main task of the project was to generate a globule (polymer) in 3D space, then to conduct energy minimization and molecular dynamics. The aim was to analyze the structure and formation process of these globules in a specific force field. For this purpose, a series of scripts were prepared, programs allowed generate polymers, conduct molecular dynamics simulations, calculations of biophysical parameters and visualization of outputs. The program allows following changes in energy during the simulation and observes conformation of polymer in any simulation frame. In order to understand the influence of the interaction of the nearby chromatin regions (contacts), a comparison of the probabilities of contacts versus genomic distance from simulationswas was performed. The first simulation was an observation of the structure of crumpled globule created as a result of minimizing the potential energy of the generated molecule. The second simulation was a simulation of molecular dynamics in a force field containing harmonic bonds and the Lennard-Jones potential. For the second simulation only, graphs of energy, radius of gyration and distance between ends versus time had to be created.
+
+## Technologies
+The scripts were written in python using the following packages:
+* Simtk (OpenMM)
+* NumPy
+* Matplotlib
+* MDTraj
+
+## Setup
+To be able to run the scripts, you must have the appropriate python packages installed. First of all Anaconda Python distribution and later OpenMM. You will also need libraries: match, random, NumPy, Matplotlib, MDTray, SciPy.
+
+To execute scripts, you have to type `python3 <filename.py>` in a terminal.
+
+
+## Development
+
+## Status
+Project is _in progress_.
+
